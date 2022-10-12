@@ -1,0 +1,98 @@
+INSERT INTO user_page (nickname) VALUES ('_Lekma_');
+INSERT INTO user_page (nickname) VALUES ('gentylove');
+INSERT INTO user_page (nickname) VALUES ('Den');
+INSERT INTO user_page (nickname) VALUES ('YNE');
+INSERT INTO user_page (nickname) VALUES ('World1');
+INSERT INTO user_page (nickname) VALUES ('mrrim218');
+INSERT INTO user_page (nickname) VALUES ('ZindyRick');
+INSERT INTO user_page (nickname) VALUES ('your.shark_');
+INSERT INTO user_page (nickname) VALUES ('Solka');
+INSERT INTO user_page (nickname) VALUES ('Phantik01');
+
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Radmir', 'radmir.fazlyev@gmail.com', '89276394837');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Roman', 'roman.giniyatov@gmail.com', '89176384293');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Vadim', 'vadim.den@gmail.com', '89377650384');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Artem', 'artem.zinnurov@gmail.com', '89178374028');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Ivan', 'ivan.shevelev@gmail.com', '89371826409');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Nariman', 'nariman.ziyatdinov@gmail.com', '89275392751');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Dmitriy', 'dima.sidorkin@gmail.com', '89276482931');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Dmitriy', 'dmitriy.blinov@gmail.com', '89274738193');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Fedor', 'fedya.smyshlyev@gmail.com', '89274620903');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Nikolay', 'kolyan.zubov@gmail.com', '89173947018');
+
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('Pavel', '420', 'Team Liquid');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('FOXRAM', '830', 'NAVI');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('cactus', '1860', 'Team Spirit');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('doshik', '780', 'Fnatic');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('hops', '3700', 'Team Spirit');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('izerial', '2740', 'Evil Geniuses');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('kust', '560', 'NAVI');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('OPER', '6300', 'Team Spirit');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('orbien', '4820', 'Team Liquid');
+INSERT INTO best_teammate (teammate_nickname, teammate_rating, teammate_team) VALUES ('Painkiller', '1240', 'Virtus.pro');
+
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('OG', '_Lekma_', '1');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Tundra Esports', 'gentylove', '2');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Xtreame Gaming', 'lou', '12');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Zoomers', 'YNE', '5');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('EHOME', 'Echo', '3');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('PSG.LGD', 'Rize', '6');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Team Aster', 'Monet', '4');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Team Secret', 'Golden', '7');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Quincy Crew', 'Solka', '10');
+INSERT INTO your_team(team_name, capitan_nickname, team_place) VALUES ('Invictus Gaming', 'XYZ', '9');
+
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('3.4', '3800', 'Phantom Assasin', '428', '2021.08.27');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('2.1', '2740', 'Viper', '325', '2020.10.16');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('1.4', '1240', 'Riki', '387', '2020.09.21');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('2.7', '4820', 'Skywrath Mage', '859', '2019.03.18');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('2', '3240', 'Ogre Magi', '604', '2020.04.27');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('3.1', '1800', 'Zeus', '732', '2018.07.28');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('4.2', '1270', 'Dawnbreaker', '238', '2021.05.02');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('3', '2310', 'Tiny', '745', '2020.01.15');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('2.2', '890', 'Invoker', '319', '2020.11.17');
+INSERT INTO stats(average_kd, rating, best_hero, matches_played, in_the_game_since) VALUES ('2.7', '1280', 'IO', '522', '2021.08.16');
+
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Ranked All Pick', '28/2/7', 'win', '2022.09.28');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Random Draft', '13/4/20', 'win', '2022.08.19');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Ranked All Pick', '3/12/4', 'lose', '2022.07.04');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Turbo', '19/4/4', 'win', '2022.09.17');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Ranked All Pick', '14/12/8', 'lose', '2022.08.05');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Turbo', '21/10/2', 'lose', '2022.07.18');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Turbo', '7/19/1', 'lose', '2022.06.24');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Ranked All Pick', '9/1/18', 'win', '2022.09.19');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Random Draft', '4/9/1', 'lose', '2022.09.21');
+INSERT INTO last_game(regime, kill_death_help, result, date_time) VALUES ('Random Draft', '48/3/9', 'win', '2022.10.07');
+
+UPDATE user_page SET user_info_id=1, your_team_id=1, best_teammate_id=1 WHERE id=1;
+UPDATE user_page SET user_info_id=2, your_team_id=2, best_teammate_id=2 WHERE id=2;
+UPDATE user_page SET user_info_id=3, your_team_id=3, best_teammate_id=3 WHERE id=3;
+UPDATE user_page SET user_info_id=4, your_team_id=4, best_teammate_id=4 WHERE id=4;
+UPDATE user_page SET user_info_id=5, your_team_id=5, best_teammate_id=5 WHERE id=5;
+UPDATE user_page SET user_info_id=6, your_team_id=6, best_teammate_id=6 WHERE id=6;
+UPDATE user_page SET user_info_id=7, your_team_id=7, best_teammate_id=7 WHERE id=7;
+UPDATE user_page SET user_info_id=8, your_team_id=8, best_teammate_id=8 WHERE id=8;
+UPDATE user_page SET user_info_id=9, your_team_id=9, best_teammate_id=9 WHERE id=9;
+UPDATE user_page SET user_info_id=10, your_team_id=10, best_teammate_id=10 WHERE id=10;
+
+UPDATE stats SET last_game_id=1 WHERE id=1;
+UPDATE stats SET last_game_id=2 WHERE id=2;
+UPDATE stats SET last_game_id=3 WHERE id=3;
+UPDATE stats SET last_game_id=4 WHERE id=4;
+UPDATE stats SET last_game_id=5 WHERE id=5;
+UPDATE stats SET last_game_id=6 WHERE id=6;
+UPDATE stats SET last_game_id=7 WHERE id=7;
+UPDATE stats SET last_game_id=8 WHERE id=8;
+UPDATE stats SET last_game_id=9 WHERE id=9;
+UPDATE stats SET last_game_id=10 WHERE id=10;
+
+UPDATE user_info SET stats_id=1 WHERE id=1;
+UPDATE user_info SET stats_id=2 WHERE id=2;
+UPDATE user_info SET stats_id=3 WHERE id=3;
+UPDATE user_info SET stats_id=4 WHERE id=4;
+UPDATE user_info SET stats_id=5 WHERE id=5;
+UPDATE user_info SET stats_id=6 WHERE id=6;
+UPDATE user_info SET stats_id=7 WHERE id=7;
+UPDATE user_info SET stats_id=8 WHERE id=8;
+UPDATE user_info SET stats_id=9 WHERE id=9;
+UPDATE user_info SET stats_id=10 WHERE id=10;
