@@ -15,7 +15,7 @@ INSERT INTO user_info (user_name, email, phone_number) VALUES ('Vadim', 'vadim.d
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Artem', 'artem.zinnurov@gmail.com', '89178374028');
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Ivan', 'ivan.shevelev@gmail.com', '89371826409');
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Nariman', 'nariman.ziyatdinov@gmail.com', '89275392751');
-INSERT INTO user_info (user_name, email, phone_number) VALUES ('Dmitriy', 'dima.sidorkin@gmail.com', '89276482931');
+INSERT INTO user_info (user_name, email, phone_number) VALUES ('Dimochka', 'dima.sidorkin@gmail.com', '89276482931');
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Dmitriy', 'dmitriy.blinov@gmail.com', '89274738193');
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Fedor', 'fedya.smyshlyev@gmail.com', '89274620903');
 INSERT INTO user_info (user_name, email, phone_number) VALUES ('Nikolay', 'kolyan.zubov@gmail.com', '89173947018');
