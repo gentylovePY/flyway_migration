@@ -1,0 +1,1 @@
+select fio_client from client where status_credit = true;
